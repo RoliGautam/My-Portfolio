@@ -1,0 +1,45 @@
+#experience{
+    text-align: center;
+    /* background-color: #fcf6de; */
+    background-image: repeating-linear-gradient(150deg, #feeeee,transparent 100px);
+}
+
+.wor_experi{
+    width: 95%;
+    margin: auto;
+}
+.project-txt{
+    font-weight: lighter !important;
+}
+.open_source{
+    width: 95%;
+    margin: auto;
+}
+.community_experi{
+    width: 95%;
+    margin: auto;
+}
+
+.card{
+    text-align: justify;
+}
+
+.model_img{
+    /* width: 450px; */
+    width: 100%;
+    margin-bottom: 21px;
+}
+span{
+    color: #c2185b;
+}
+
+
+.card {
+    text-align: justify;
+    transition: all 1s ease-in-out;
+}
+.card:hover{
+    background-color: #091b6a;
+    color: white;
+
+}

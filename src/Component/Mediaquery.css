@@ -1,0 +1,28 @@
+@media only screen and (max-width: 870px) {
+    #myimage {
+        padding-top: 20px;
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+    }
+    .img{
+        box-shadow: inset 0px 0px 18px 5px darkblue;
+        border-radius: 50%;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 924px) {
+    .about-box-right{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .achiev_1_img {
+        display: none;
+    }
+    .achiev_1_content {
+        width: 100vw !important;
+    }
+}

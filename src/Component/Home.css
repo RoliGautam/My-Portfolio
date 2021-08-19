@@ -1,0 +1,138 @@
+#home {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    /* background-color: #343F4F; */
+    background-color: #0d2343;
+    font-family: 'ubuntu';
+    width: 100%;
+    color: white;
+}
+
+/* My photo of home page  */
+
+#myimage {
+    height: 89.1vh;
+    width: 417px;
+}
+
+
+
+/* Browser Scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+    background: rgb(18, 18, 129);
+}
+
+/* Browser Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(187, 144, 144);
+    -webkit-box-shadow: inset 0 0 6px rgb(255 255 255 / 70%);
+}
+
+
+
+
+
+#myname-text-1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#myname-text-2 {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 3px 3px 20px #312222;
+    transition: border 4s;
+    transition: text-shadow 2s;
+}
+
+#myname-text-2:hover {
+    color: rgb(240, 237, 230);
+    text-shadow: 7px 7px darkblue;
+}
+
+#myname-text-3 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    /* color: white; */
+}
+
+#myname-text-3-span {
+    color: #86ff00;
+    text-shadow: 2px 2px black;
+}
+
+#btn-home-res a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .static-txt {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 400px;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    line-height: 85px;
+    padding: 2px;
+    height: 63px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    font-size: 3rem;
+    font-weight: 500;
+    color: red;
+    animation: slide 6s steps(4) infinite;
+    position: relative;
+    top: 0;
+}
+
+.dynamic-txts li span {
+    position: relative;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    /* background-color: #343F4F; */
+    background-color: #0d2343;
+    border-left: 3px solid white;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}

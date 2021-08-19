@@ -1,0 +1,62 @@
+/* Project CSS Style Start */
+
+#projects {
+    background-color: rgb(247 237 237);
+    width: 100%;
+    font-family: 'ubuntu', 'sans-serif';
+}
+
+/* css for the rows of projects */
+
+.project .row {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* css of the div of projects */
+
+.project .row .pro {
+    width: 550px;
+    /* height: 350px; */
+    float: left;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 12px 16px 10px #a27e7e;
+    margin: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    transition: box-shadow 3s;
+    transition: background-color 3s;
+    cursor: pointer;
+}
+
+.project .row .pro:hover {
+    background-color: rgb(100 234 219);
+    box-shadow: -2px 2px 18px -5px #15087b;
+    font-weight: bold;
+}
+
+.btn-margin {
+    margin-left: 5px;
+}
+
+/* CSS FOR THE HEADING OF .projects */
+
+.project .row .pro h4 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* heading : Projects Css/ */
+
+.project .head {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 45px;
+    padding-top: 64px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}

@@ -1,0 +1,29 @@
+#skills {
+    text-align: center;
+    background: rgb(255, 224, 188);
+}
+
+.programming_skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.programming_skills_img {
+    width: 150px;
+    height: 155px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    margin-bottom: 45px;
+    background-color: white;
+    box-shadow: 12px 16px 10px #a27e7e;
+    
+    padding: 10px;
+    margin-left: 20px;
+
+    transition: background-color 2s;
+
+}
+.programming_skills_img:hover{
+    background-color: #86d96e;
+}

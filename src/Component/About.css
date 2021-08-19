@@ -1,0 +1,79 @@
+#about {
+    text-align: center;
+    /* align-items: center; */
+    padding-top: 70px;
+    background:  #ffdde1;
+    font-family: 'ubuntu';
+    width: 100%;
+    overflow-x: hidden;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+.about-box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'ubuntu';
+    color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+.about-box-left {
+    width: 600px;
+    text-align: justify;
+}
+
+#my-name-about{
+    color: blue;
+}
+#my-name-about:hover{
+    color: red;
+    text-shadow: 1px 1px blue;
+}
+
+.hightlight {
+    /* color: #a5790b; */
+    text-decoration: none !important;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+#about-box-right-img {
+    border-radius: 150px;
+    margin: 10px;
+    height: 260px;
+    width: 265px;
+}
+#about-box-right-img:hover{
+}
+
+/* My name in about section styling  */
+.about-name{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 12px;
+}
+.who{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(210 28 28);
+    font-weight: bold;
+}
+.typing{
+    color: #ff1a1a;
+}
