@@ -17,6 +17,7 @@ function Home() {
                     <br />
                     <div className="wrapper">
                                 <div className="static-txt"></div>
+                                {/* text for the animation */}
                                 <ul className="dynamic-txts">
                                     <li id="dy-li"><span> CODER</span></li>
                                     <li id="dy-li"><span>LEARNER</span></li>
