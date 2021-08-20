@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import './Mediaquery.css'
-import myPhoto from './images/my-photo.png'
+import myPhoto from './images/roli_img.png'
 
 function Home() {
     return (
