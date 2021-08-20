@@ -1,6 +1,5 @@
 #experience{
     text-align: center;
-    /* background-color: #fcf6de; */
     background-image: repeating-linear-gradient(150deg, #feeeee,transparent 100px);
 }
 
@@ -20,9 +19,7 @@
     margin: auto;
 }
 
-.card{
-    text-align: justify;
-}
+
 
 .model_img{
     /* width: 450px; */
@@ -35,7 +32,7 @@ span{
 
 
 .card {
-    text-align: justify;
+    text-align: left;
     transition: all 1s ease-in-out;
 }
 .card:hover{

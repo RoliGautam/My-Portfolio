@@ -1,13 +1,11 @@
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 640px) {
     #myimage {
         padding-top: 20px;
-        height: 220px;
-        width: 220px;
-        border-radius: 50%;
+        height: 352px;
+        width: 229px;
     }
     .img{
-        box-shadow: inset 0px 0px 18px 5px darkblue;
-        border-radius: 50%;
+ 
         margin-bottom: 40px;
     }
 }
@@ -24,5 +22,31 @@
     }
     .achiev_1_content {
         width: 100vw !important;
+    }
+}
+
+@media only screen and (max-width:310px) {
+    #myname-text-2{
+        font-size: 3.5rem;
+    }
+
+    .dynamic-txts li {
+        font-size: 2.4rem;
+
+    }
+    .wrapper .dynamic-txts {
+         margin-left: 2px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #myimage {
+        padding-top: 20px;
+       
+    }
+}
+@media only screen and (max-width:790px) {
+    #myname-text-1 {
+        padding-top: 25px;
     }
 }
