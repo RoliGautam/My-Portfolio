@@ -30,7 +30,7 @@ function Home() {
                     <br />
                     <br />
                     <button type="button" id="btn-home-res" className="btn my-3 btn-info">
-                        <a href="https://drive.google.com/file/d/15vgIOPZH5OsUY2BwPucOHSyZeFmKCMNh/view">Resume</a> </button>
+                        <a href="https://drive.google.com/file/d/1wfAvD-1ysJ8fZyI4GbqCx4VRPld16TmG/view?usp=drivesdk">Resume</a> </button>
                 </div>
 
             </div>
