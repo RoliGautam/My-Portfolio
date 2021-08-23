@@ -8,6 +8,8 @@
 5. Experiences
 6. Volunteer Work etc.
 
+<img src = "https://github.com/RoliGautam/My-portfolio/blob/master/src/Component/images/home_port.jpg" width="800" height="400" />
+
 ## Tech Used 
 
 1. HTML
